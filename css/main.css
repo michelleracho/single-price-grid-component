@@ -66,7 +66,7 @@ body {
 }
 
 .invite__description {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #98a6bd;
   list-style: none;
 }
@@ -76,13 +76,30 @@ body {
 }
 
 .price {
-  border: 2px solid skyblue;
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1/2;
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
+  padding: 4rem;
+  background-color: #2ab2af;
+  color: #e5eff5;
+}
+
+.price__amount {
+  font-size: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.price__description {
+  font-size: 1.6rem;
 }
 
 .why-us {
@@ -107,5 +124,31 @@ body {
 
 .attribution a {
   color: #3e52a3;
+}
+
+.sub-heading {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.small-text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: currentColor;
+  opacity: 0.3;
+  padding-left: 1.2rem;
+}
+
+.btn {
+  font-size: 1.3rem;
+  color: currentColor;
+  background-color: #c0df34;
+  width: 100%;
+  padding: 1.2rem;
+  margin-top: 2.5rem;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.2);
 }
 /*# sourceMappingURL=main.css.map */

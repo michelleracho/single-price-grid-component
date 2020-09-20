@@ -27,7 +27,7 @@
   }
 
   &__description {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: $color-neutral-grayish-blue;
     list-style: none;
 
@@ -38,9 +38,23 @@
 }
 
 .price {
-  border: 2px solid skyblue;
+  // border: 2px solid skyblue;
   grid-column: 1/2;
   grid-row: 2/3;
+  padding: 4rem;
+  background-color: $color-primary-cyan;
+  color: $color-neutral-light-gray;
+
+  &__amount {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+
+  &__description {
+    font-size: 1.6rem;
+  }
 }
 
 .why-us {
@@ -62,4 +76,30 @@
   a {
     color: hsl(228, 45%, 44%);
   }
+}
+
+// COMPONENTS
+.sub-heading {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.small-text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: currentColor;
+  opacity: 0.3;
+  padding-left: 1.2rem;
+}
+
+.btn {
+  font-size: 1.3rem;
+  color: currentColor;
+  background-color: $color-primary-bright-yellow;
+  width: 100%;
+  padding: 1.2rem;
+  margin-top: 2.5rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.2);
 }
