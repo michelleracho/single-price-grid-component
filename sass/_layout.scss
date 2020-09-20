@@ -1,0 +1,39 @@
+.container {
+  // border: 2px solid black;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.invite {
+  border: 2px solid teal;
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+.price {
+  border: 2px solid skyblue;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.why-us {
+  border: 2px solid slateblue;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+// FOOTER
+.attribution {
+  font-size: 11px;
+  text-align: center;
+
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+  a {
+    color: hsl(228, 45%, 44%);
+  }
+}
