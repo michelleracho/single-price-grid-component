@@ -165,4 +165,15 @@ body {
   -webkit-box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.2);
           box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.2);
 }
+
+.btn:active, .btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
 /*# sourceMappingURL=main.css.map */
