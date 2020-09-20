@@ -58,9 +58,22 @@
 }
 
 .why-us {
-  border: 2px solid slateblue;
+  // border: 2px solid slateblue;
   grid-column: 2/3;
   grid-row: 2/3;
+  padding: 4rem;
+  background-color: rgba($color-primary-cyan, 0.85);
+  color: $color-neutral-light-gray;
+
+  &__list {
+    list-style: none;
+    font-size: 1.4rem;
+    opacity: 0.6;
+
+    & li:not(:last-child) {
+      margin-bottom: 0.35rem;
+    }
+  }
 }
 
 // FOOTER
