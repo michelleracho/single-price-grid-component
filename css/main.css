@@ -35,8 +35,8 @@ body {
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
-  -ms-grid-rows: (1fr)[2];
-      grid-template-rows: repeat(2, 1fr);
+  -ms-grid-rows: 2;
+      grid-template-rows: 2;
   border-radius: 1rem;
   overflow: hidden;
   -webkit-box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
@@ -72,7 +72,7 @@ body {
 }
 
 .invite__description li:not(:last-child) {
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.6rem;
 }
 
 .price {
@@ -95,7 +95,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.7rem;
 }
 
 .price__description {
@@ -110,7 +110,7 @@ body {
   -ms-grid-row-span: 1;
   grid-row: 2/3;
   padding: 4rem;
-  background-color: rgba(42, 178, 175, 0.85);
+  background-color: rgba(42, 178, 175, 0.8);
   color: #e5eff5;
 }
 
@@ -152,11 +152,13 @@ body {
 }
 
 .btn {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: inherit;
   color: currentColor;
   background-color: #c0df34;
   width: 100%;
-  padding: 1.2rem;
+  padding: 1.3rem;
   margin-top: 2.5rem;
   border: none;
   border-radius: 5px;

@@ -2,7 +2,7 @@
   // border: 1px solid black;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: 2;
   border-radius: 1rem;
   overflow: hidden;
   box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
@@ -32,7 +32,7 @@
     list-style: none;
 
     & li:not(:last-child) {
-      padding-bottom: 0.5rem;
+      padding-bottom: 0.6rem;
     }
   }
 }
@@ -49,7 +49,7 @@
     font-size: 3rem;
     display: flex;
     align-items: center;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.7rem;
   }
 
   &__description {
@@ -62,7 +62,7 @@
   grid-column: 2/3;
   grid-row: 2/3;
   padding: 4rem;
-  background-color: rgba($color-primary-cyan, 0.85);
+  background-color: rgba($color-primary-cyan, 0.8);
   color: $color-neutral-light-gray;
 
   &__list {
@@ -106,11 +106,13 @@
 }
 
 .btn {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: inherit;
   color: currentColor;
   background-color: $color-primary-bright-yellow;
   width: 100%;
-  padding: 1.2rem;
+  padding: 1.3rem;
   margin-top: 2.5rem;
   border: none;
   border-radius: 5px;
