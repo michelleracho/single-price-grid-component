@@ -1,5 +1,7 @@
 # Frontend Mentor - Single Price Grid Component
 
+- see project live [here](https://confident-minsky-a95d31.netlify.app/)
+
 ![Design preview for the Single Price Grid Component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
