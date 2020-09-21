@@ -11,10 +11,18 @@ html {
   font-size: 62.5%;
 }
 
+@media only screen and (max-width: 375px) {
+  html {
+    font-size: 50%;
+  }
+}
+
 body {
   font-size: 1.6rem;
-  font-family: 'Karla', sans-serif;
-  height: 100vh;
+  font-family: "Karla", sans-serif;
+  background-color: #e5eff5;
+  position: relative;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,6 +49,26 @@ body {
   overflow: hidden;
   -webkit-box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 5rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    margin: 2rem;
+    margin-bottom: 5rem;
+  }
 }
 
 .invite {
